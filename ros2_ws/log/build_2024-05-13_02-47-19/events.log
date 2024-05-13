@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000274] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000499] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000627] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.098738] (-) TimerEvent: {}
+[0.126607] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.198823] (-) TimerEvent: {}
+[0.299270] (-) TimerEvent: {}
+[0.399731] (-) TimerEvent: {}
+[0.500232] (-) TimerEvent: {}
+[0.600692] (-) TimerEvent: {}
+[0.701094] (-) TimerEvent: {}
+[0.801644] (-) TimerEvent: {}
+[0.902474] (-) TimerEvent: {}
+[1.002851] (-) TimerEvent: {}
+[1.103227] (-) TimerEvent: {}
+[1.203616] (-) TimerEvent: {}
+[1.304042] (-) TimerEvent: {}
+[1.404430] (-) TimerEvent: {}
+[1.504825] (-) TimerEvent: {}
+[1.605219] (-) TimerEvent: {}
+[1.705615] (-) TimerEvent: {}
+[1.806031] (-) TimerEvent: {}
+[1.906433] (-) TimerEvent: {}
+[2.006810] (-) TimerEvent: {}
+[2.107222] (-) TimerEvent: {}
+[2.207629] (-) TimerEvent: {}
+[2.308080] (-) TimerEvent: {}
+[2.408511] (-) TimerEvent: {}
+[2.509041] (-) TimerEvent: {}
+[2.609454] (-) TimerEvent: {}
+[2.709894] (-) TimerEvent: {}
+[2.810408] (-) TimerEvent: {}
+[2.910859] (-) TimerEvent: {}
+[3.011288] (-) TimerEvent: {}
+[3.111726] (-) TimerEvent: {}
+[3.212119] (-) TimerEvent: {}
+[3.312530] (-) TimerEvent: {}
+[3.412902] (-) TimerEvent: {}
+[3.513326] (-) TimerEvent: {}
+[3.613759] (-) TimerEvent: {}
+[3.714121] (-) TimerEvent: {}
+[3.814543] (-) TimerEvent: {}
+[3.914973] (-) TimerEvent: {}
+[4.015360] (-) TimerEvent: {}
+[4.115790] (-) TimerEvent: {}
+[4.216203] (-) TimerEvent: {}
+[4.316619] (-) TimerEvent: {}
+[4.417046] (-) TimerEvent: {}
+[4.517431] (-) TimerEvent: {}
+[4.617822] (-) TimerEvent: {}
+[4.718205] (-) TimerEvent: {}
+[4.818574] (-) TimerEvent: {}
+[4.918995] (-) TimerEvent: {}
+[5.019447] (-) TimerEvent: {}
+[5.119865] (-) TimerEvent: {}
+[5.220259] (-) TimerEvent: {}
+[5.320773] (-) TimerEvent: {}
+[5.421183] (-) TimerEvent: {}
+[5.521566] (-) TimerEvent: {}
+[5.622017] (-) TimerEvent: {}
+[5.663334] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspaces/ros2/ros2_ws/build/my_robot_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/workspaces/ros2/ros2_ws/build/my_robot_controller', 'env': {'HOSTNAME': '0f3373661bf2', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspaces/ros2/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspaces/ros2/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.89.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-873b1cde-5623-4c7c-adc2-10a014786e63.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspaces/ros2/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b86958af-7483-475a-8e67-63feaeee7061.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-15f46bfb9d.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/workspaces/ros2/ros2_ws/install/turtlesim:/workspaces/ros2/ros2_ws/install/py_srvcli:/workspaces/ros2/ros2_ws/install/py_pubsub:/workspaces/ros2/ros2_ws/install/my_robot_controller:/workspaces/ros2/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspaces/ros2/ros2_ws/build/my_robot_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspaces/ros2/ros2_ws/build/my_robot_controller/prefix_override:/workspaces/ros2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/workspaces/ros2/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/workspaces/ros2/ros2_ws/build/py_srvcli:/workspaces/ros2/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/workspaces/ros2/ros2_ws/build/py_pubsub:/workspaces/ros2/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/workspaces/ros2/ros2_ws/build/my_robot_controller:/workspaces/ros2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/workspaces/ros2/ros2_ws/build/my_package:/workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspaces/ros2/ros2_ws/install/turtlesim'}, 'shell': False}
+[5.722118] (-) TimerEvent: {}
+[5.745654] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspaces/ros2/ros2_ws/build/my_package/build', '--no-deps', 'symlink_data'], 'cwd': '/workspaces/ros2/ros2_ws/build/my_package', 'env': {'HOSTNAME': '0f3373661bf2', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspaces/ros2/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspaces/ros2/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.89.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-873b1cde-5623-4c7c-adc2-10a014786e63.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspaces/ros2/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b86958af-7483-475a-8e67-63feaeee7061.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-15f46bfb9d.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/workspaces/ros2/ros2_ws/install/turtlesim:/workspaces/ros2/ros2_ws/install/py_srvcli:/workspaces/ros2/ros2_ws/install/py_pubsub:/workspaces/ros2/ros2_ws/install/my_robot_controller:/workspaces/ros2/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspaces/ros2/ros2_ws/build/my_package', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspaces/ros2/ros2_ws/build/my_package/prefix_override:/workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages:/workspaces/ros2/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/workspaces/ros2/ros2_ws/build/py_srvcli:/workspaces/ros2/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/workspaces/ros2/ros2_ws/build/py_pubsub:/workspaces/ros2/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/workspaces/ros2/ros2_ws/build/my_robot_controller:/workspaces/ros2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/workspaces/ros2/ros2_ws/build/my_package:/workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspaces/ros2/ros2_ws/install/turtlesim'}, 'shell': False}
+[5.822226] (-) TimerEvent: {}
+[5.922638] (-) TimerEvent: {}
+[6.023064] (-) TimerEvent: {}
+[6.123489] (-) TimerEvent: {}
+[6.223865] (-) TimerEvent: {}
+[6.324278] (-) TimerEvent: {}
+[6.424647] (-) TimerEvent: {}
+[6.525047] (-) TimerEvent: {}
+[6.625432] (-) TimerEvent: {}
+[6.725843] (-) TimerEvent: {}
+[6.826246] (-) TimerEvent: {}
+[6.926663] (-) TimerEvent: {}
+[7.027067] (-) TimerEvent: {}
+[7.127517] (-) TimerEvent: {}
+[7.229370] (-) TimerEvent: {}
+[7.329768] (-) TimerEvent: {}
+[7.334302] (my_package) StdoutLine: {'line': b'running develop\n'}
+[7.334972] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[7.429876] (-) TimerEvent: {}
+[7.530318] (-) TimerEvent: {}
+[7.630698] (-) TimerEvent: {}
+[7.731124] (-) TimerEvent: {}
+[7.743378] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[7.744653] (my_package) StdoutLine: {'line': b'writing my_package.egg-info/PKG-INFO\n'}
+[7.747414] (my_package) StdoutLine: {'line': b'writing dependency_links to my_package.egg-info/dependency_links.txt\n'}
+[7.750765] (my_package) StdoutLine: {'line': b'writing entry points to my_package.egg-info/entry_points.txt\n'}
+[7.753118] (my_package) StdoutLine: {'line': b'writing requirements to my_package.egg-info/requires.txt\n'}
+[7.754801] (my_package) StdoutLine: {'line': b'writing top-level names to my_package.egg-info/top_level.txt\n'}
+[7.763758] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.764952] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[7.767888] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[7.770537] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[7.772739] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[7.774447] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[7.788250] (my_package) StdoutLine: {'line': b"reading manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[7.805710] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[7.831235] (-) TimerEvent: {}
+[7.840464] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[7.862021] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[7.866243] (my_package) StdoutLine: {'line': b'running build_ext\n'}
+[7.866874] (my_package) StdoutLine: {'line': b'Creating /workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)\n'}
+[7.878814] (my_package) StdoutLine: {'line': b'Installing my_node script to /workspaces/ros2/ros2_ws/install/my_package/lib/my_package\n'}
+[7.884408] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[7.884998] (my_robot_controller) StdoutLine: {'line': b'Creating /workspaces/ros2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[7.892180] (my_package) StdoutLine: {'line': b'\n'}
+[7.892837] (my_package) StdoutLine: {'line': b'Installed /workspaces/ros2/ros2_ws/build/my_package\n'}
+[7.894496] (my_package) StdoutLine: {'line': b'running symlink_data\n'}
+[7.897273] (my_robot_controller) StdoutLine: {'line': b'Installing draw_circle script to /workspaces/ros2/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.907618] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /workspaces/ros2/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.921863] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[7.922515] (my_robot_controller) StdoutLine: {'line': b'Installed /workspaces/ros2/ros2_ws/build/my_robot_controller\n'}
+[7.924184] (my_robot_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[7.931346] (-) TimerEvent: {}
+[7.952127] (my_package) CommandEnded: {'returncode': 0}
+[8.031433] (-) TimerEvent: {}
+[8.131860] (-) TimerEvent: {}
+[8.170227] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[8.175323] (my_robot_controller) CommandEnded: {'returncode': 0}
+[8.231966] (-) TimerEvent: {}
+[8.332334] (-) TimerEvent: {}
+[8.374098] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[8.379786] (-) EventReactorShutdown: {}

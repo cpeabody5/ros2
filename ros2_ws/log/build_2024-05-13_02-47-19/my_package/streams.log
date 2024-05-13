@@ -1,0 +1,17 @@
+[5.753s] Invoking command in '/workspaces/ros2/ros2_ws/build/my_package': PYTHONPATH=/workspaces/ros2/ros2_ws/build/my_package/prefix_override:/workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/ros2/ros2_ws/build/my_package/build --no-deps symlink_data
+[7.334s] running develop
+[7.743s] running egg_info
+[7.745s] writing my_package.egg-info/PKG-INFO
+[7.747s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[7.751s] writing entry points to my_package.egg-info/entry_points.txt
+[7.753s] writing requirements to my_package.egg-info/requires.txt
+[7.755s] writing top-level names to my_package.egg-info/top_level.txt
+[7.788s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[7.840s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[7.866s] running build_ext
+[7.867s] Creating /workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[7.879s] Installing my_node script to /workspaces/ros2/ros2_ws/install/my_package/lib/my_package
+[7.892s] 
+[7.893s] Installed /workspaces/ros2/ros2_ws/build/my_package
+[7.894s] running symlink_data
+[7.952s] Invoked command in '/workspaces/ros2/ros2_ws/build/my_package' returned '0': PYTHONPATH=/workspaces/ros2/ros2_ws/build/my_package/prefix_override:/workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/ros2/ros2_ws/build/my_package/build --no-deps symlink_data

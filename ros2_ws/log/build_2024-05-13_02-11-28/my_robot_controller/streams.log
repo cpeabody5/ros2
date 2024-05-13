@@ -1,0 +1,19 @@
+[8.022s] Invoking command in '/workspaces/ros2/ros2_ws/build/my_robot_controller': PYTHONPATH=/workspaces/ros2/ros2_ws/build/my_robot_controller/prefix_override:/workspaces/ros2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/ros2/ros2_ws/build/my_robot_controller/build --no-deps symlink_data --force
+[9.444s] running develop
+[9.702s] running egg_info
+[9.703s] writing my_robot_controller.egg-info/PKG-INFO
+[9.706s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[9.710s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[9.713s] writing requirements to my_robot_controller.egg-info/requires.txt
+[9.715s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[9.758s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[9.829s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[9.855s] running build_ext
+[9.856s] Creating /workspaces/ros2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[9.872s] Installing test_node script to /workspaces/ros2/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[9.887s] 
+[9.888s] Installed /workspaces/ros2/ros2_ws/build/my_robot_controller
+[9.891s] running symlink_data
+[9.910s] symbolically linking /workspaces/ros2/ros2_ws/build/my_robot_controller/resource/my_robot_controller -> /workspaces/ros2/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[9.926s] symbolically linking /workspaces/ros2/ros2_ws/build/my_robot_controller/package.xml -> /workspaces/ros2/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[10.104s] Invoked command in '/workspaces/ros2/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/workspaces/ros2/ros2_ws/build/my_robot_controller/prefix_override:/workspaces/ros2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/ros2/ros2_ws/build/my_robot_controller/build --no-deps symlink_data --force

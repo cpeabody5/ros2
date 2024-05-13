@@ -1,0 +1,19 @@
+[7.163s] Invoking command in '/workspaces/ros2/ros2_ws/build/my_package': PYTHONPATH=/workspaces/ros2/ros2_ws/build/my_package/prefix_override:/workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/ros2/ros2_ws/build/my_package/build --no-deps symlink_data --force
+[8.777s] running develop
+[9.141s] running egg_info
+[9.142s] writing my_package.egg-info/PKG-INFO
+[9.145s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[9.148s] writing entry points to my_package.egg-info/entry_points.txt
+[9.151s] writing requirements to my_package.egg-info/requires.txt
+[9.152s] writing top-level names to my_package.egg-info/top_level.txt
+[9.192s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[9.251s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[9.276s] running build_ext
+[9.277s] Creating /workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[9.292s] Installing my_node script to /workspaces/ros2/ros2_ws/install/my_package/lib/my_package
+[9.307s] 
+[9.308s] Installed /workspaces/ros2/ros2_ws/build/my_package
+[9.309s] running symlink_data
+[9.326s] symbolically linking /workspaces/ros2/ros2_ws/build/my_package/resource/my_package -> /workspaces/ros2/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[9.341s] symbolically linking /workspaces/ros2/ros2_ws/build/my_package/package.xml -> /workspaces/ros2/ros2_ws/install/my_package/share/my_package
+[9.369s] Invoked command in '/workspaces/ros2/ros2_ws/build/my_package' returned '0': PYTHONPATH=/workspaces/ros2/ros2_ws/build/my_package/prefix_override:/workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/ros2/ros2_ws/build/my_package/build --no-deps symlink_data --force

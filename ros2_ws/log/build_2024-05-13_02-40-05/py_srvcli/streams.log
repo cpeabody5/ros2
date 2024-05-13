@@ -1,0 +1,21 @@
+[7.420s] Invoking command in '/workspaces/ros2/ros2_ws/src/py_srvcli': PYTHONPATH=/workspaces/ros2/ros2_ws/build/py_srvcli/prefix_override:/workspaces/ros2/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /workspaces/ros2/ros2_ws/build/py_srvcli/build install --record /workspaces/ros2/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[9.027s] running egg_info
+[9.030s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[9.035s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[9.041s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[9.044s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[9.047s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[9.076s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[9.112s] adding license file 'LICENSE'
+[9.130s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[9.132s] running build
+[9.133s] running build_py
+[9.146s] running install
+[9.147s] running install_lib
+[9.201s] running install_data
+[9.221s] running install_egg_info
+[9.237s] removing '/workspaces/ros2/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[9.284s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /workspaces/ros2/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[9.476s] running install_scripts
+[9.610s] writing list of installed files to '/workspaces/ros2/ros2_ws/build/py_srvcli/install.log'
+[9.639s] Invoked command in '/workspaces/ros2/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/workspaces/ros2/ros2_ws/build/py_srvcli/prefix_override:/workspaces/ros2/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /workspaces/ros2/ros2_ws/build/py_srvcli/build install --record /workspaces/ros2/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

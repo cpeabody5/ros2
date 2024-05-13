@@ -1,0 +1,32 @@
+[6.175s] Invoking command in '/workspaces/ros2/ros2_ws/build/my_package': PYTHONPATH=/workspaces/ros2/ros2_ws/build/my_package/prefix_override:/workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /workspaces/ros2/ros2_ws/build/my_package/build
+[7.673s] running develop
+[8.091s] Removing /workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[8.132s] Invoked command in '/workspaces/ros2/ros2_ws/build/my_package' returned '0': PYTHONPATH=/workspaces/ros2/ros2_ws/build/my_package/prefix_override:/workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /workspaces/ros2/ros2_ws/build/my_package/build
+[8.141s] Invoking command in '/workspaces/ros2/ros2_ws/src/my_package': PYTHONPATH=/workspaces/ros2/ros2_ws/build/my_package/prefix_override:/workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /workspaces/ros2/ros2_ws/build/my_package/build install --record /workspaces/ros2/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data --force
+[9.635s] running egg_info
+[9.639s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[9.644s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[9.649s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[9.653s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[9.656s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[9.688s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[9.724s] adding license file 'LICENSE'
+[9.741s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[9.743s] running build
+[9.744s] running build_py
+[9.770s] running install
+[9.771s] running install_lib
+[9.790s] creating /workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[9.803s] copying /workspaces/ros2/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[9.833s] copying /workspaces/ros2/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[9.866s] byte-compiling /workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc
+[9.901s] byte-compiling /workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[9.925s] running install_data
+[9.932s] copying resource/my_package -> /workspaces/ros2/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[9.955s] copying package.xml -> /workspaces/ros2/ros2_ws/install/my_package/share/my_package
+[9.969s] running install_egg_info
+[9.992s] Copying ../../build/my_package/my_package.egg-info to /workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[10.182s] running install_scripts
+[10.307s] Installing my_node script to /workspaces/ros2/ros2_ws/install/my_package/lib/my_package
+[10.319s] writing list of installed files to '/workspaces/ros2/ros2_ws/build/my_package/install.log'
+[10.358s] Invoked command in '/workspaces/ros2/ros2_ws/src/my_package' returned '0': PYTHONPATH=/workspaces/ros2/ros2_ws/build/my_package/prefix_override:/workspaces/ros2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /workspaces/ros2/ros2_ws/build/my_package/build install --record /workspaces/ros2/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data --force

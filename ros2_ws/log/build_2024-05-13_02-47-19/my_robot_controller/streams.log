@@ -1,0 +1,18 @@
+[5.543s] Invoking command in '/workspaces/ros2/ros2_ws/build/my_robot_controller': PYTHONPATH=/workspaces/ros2/ros2_ws/build/my_robot_controller/prefix_override:/workspaces/ros2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/ros2/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[7.209s] running develop
+[7.637s] running egg_info
+[7.638s] writing my_robot_controller.egg-info/PKG-INFO
+[7.641s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[7.644s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[7.646s] writing requirements to my_robot_controller.egg-info/requires.txt
+[7.648s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[7.679s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[7.736s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[7.758s] running build_ext
+[7.759s] Creating /workspaces/ros2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[7.771s] Installing draw_circle script to /workspaces/ros2/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[7.781s] Installing test_node script to /workspaces/ros2/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[7.795s] 
+[7.796s] Installed /workspaces/ros2/ros2_ws/build/my_robot_controller
+[7.798s] running symlink_data
+[8.049s] Invoked command in '/workspaces/ros2/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/workspaces/ros2/ros2_ws/build/my_robot_controller/prefix_override:/workspaces/ros2/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /workspaces/ros2/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
